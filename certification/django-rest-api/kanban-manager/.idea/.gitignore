@@ -1,4 +1,16 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-db.sqlite3
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.sqlite3
+
