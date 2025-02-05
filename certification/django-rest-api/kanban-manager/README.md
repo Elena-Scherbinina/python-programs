@@ -47,19 +47,19 @@ Before running the project, make sure you have:
      GET /tasks/<id>/ → Retrieves a task (shows only card_id)
 
 
-  Example API Response: \
-  [ { \
-      "id": 1, \
-      "title": "Project Setup", \
-      "description": "Initialize project repository", \
-      "status_text": "to-do", \
-      "tasks": [{ \
+    Example API Response: \
+    [ { \
          "id": 1, \
-         "description": "Create Django project", \
-         "done": false, \
-         "card": 1 \
-        }] \
-    }]
+         "title": "Project Setup", \
+          "description": "Initialize project repository", \
+         "status_text": "to-do", \
+         "tasks": [{ \
+            "id": 1, \
+            "description": "Create Django project", \
+            "done": false, \
+            "card": 1 \
+            }] \
+      }]
 
 7. **Authentication**
  -  Only authenticated users can manage their own Kanban cards and tasks.
