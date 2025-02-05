@@ -3,12 +3,12 @@ This project was developed as part of the UCSC Extension Software Engineering & 
 It is a Django REST API for managing Kanban cards and tasks.
 
 1. Features
-✅ CRUD operations for Kanban cards and tasks
-✅ Basic authentication (users can only manage their own cards)
-✅ Many-to-one relationship: each Kanban card can have multiple tasks
-✅ Status choices: to-do, in-progress, done
-✅ Nested task structure in API responses
-✅ Automated tests with pytest
+✅ CRUD operations for Kanban cards and tasks \
+✅ Basic authentication (users can only manage their own cards) \
+✅ Many-to-one relationship: each Kanban card can have multiple tasks \
+✅ Status choices: to-do, in-progress, done \
+✅ Nested task structure in API responses \
+✅ Automated tests with pytest \
 
 2. Requirements
 Before running the project, make sure you have:
