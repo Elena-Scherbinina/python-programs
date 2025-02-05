@@ -34,13 +34,13 @@ Before running the project, make sure you have:
  - python manage.py runserver
    API should now be running at http://127.0.0.1:8000/
 
-   6. API Endpoints \
-     Kanban Cards \
-     GET /cards/ → List all cards \
-     POST /cards/ → Create a new card \
-     GET /cards/<id>/ → Retrieve a specific card \
-     PUT /cards/<id>/ → Update a card \
-     DELETE /cards/<id>/ → Delete a card
+6. API Endpoints \
+  Kanban Cards \
+  GET /cards/ → List all cards \
+  POST /cards/ → Create a new card \
+  GET /cards/<id>/ → Retrieve a specific card \
+  PUT /cards/<id>/ → Update a card \
+  DELETE /cards/<id>/ → Delete a card
 
      Tasks (Nested in Cards) \
      GET /cards/ → Returns tasks inside each card \
@@ -59,8 +59,7 @@ Before running the project, make sure you have:
          "description": "Create Django project", \
          "done": false, \
          "card": 1 \
-        } \
-      ] \
+        }] \
     }]
 
 7. Authentication
